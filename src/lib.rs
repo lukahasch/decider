@@ -5,6 +5,8 @@
     fn_traits
 )]
 
+pub mod tiktaktoe;
+
 use std::{collections::HashMap, hash::Hash, marker::Tuple};
 
 pub trait State {
